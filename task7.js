@@ -9,3 +9,6 @@ const content = `2-4,6-8
 console.log(content)
 
 const myArray = content.split(/\r?\n/).map((line) => line.split(",")); 
+
+console.log(myArray)
+

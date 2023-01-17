@@ -8,7 +8,8 @@ const content = `2-4,6-8
 
 console.log(content)
 
-const myArray = content.split(/\r?\n/).map((line) => line.split(",")); 
+const myArray = content.split(',').map((line) => line.split('-').map(Number));
+
 
 console.log(myArray)
 
